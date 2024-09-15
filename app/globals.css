@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  max-width: 1700px;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+/* Add this to your global CSS or within the component's scoped CSS */
+.scrollbar-hide {
+  /* Hide scrollbar for Chrome, Safari, and Opera */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
