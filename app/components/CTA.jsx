@@ -32,7 +32,13 @@ const QuoteSection = () => {
         </p>
         <div className="flex items-center text-red-500">
           <FaPhoneAlt size={24} className="mr-3" />
-          <span className="text-xl font-bold">(585) 207-8508</span>
+          <a
+            href="tel:+12012527549"
+            className="text-[#FF3E41] font-bold text-lg"
+            aria-label="Call (201) 252-7549"
+          >
+            (201) 252-7549
+          </a>
         </div>
       </div>
 

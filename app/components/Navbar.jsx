@@ -34,13 +34,14 @@ const Navbar = () => {
           ))}
         </nav>
 
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden md:flex items-center gap-6 mr-4">
           <button className="text-lg lg:text-xl font-medium">Sign Up</button>
           <a
-            href="tel:+15852078508"
-            className="text-[#FF3E41] font-medium text-lg lg:text-xl"
+            href="tel:+12012527549"
+            className="text-[#FF3E41] font-medium text-lg"
+            aria-label="Call (201) 252-7549"
           >
-            +1 (585) 207-8508
+            (201) 252-7549
           </a>
         </div>
       </div>
@@ -63,10 +64,11 @@ const Navbar = () => {
           <div className="flex flex-col mt-4 gap-4">
             <button className="text-lg font-medium">Sign Up</button>
             <a
-              href="tel:+15852078508"
+              href="tel:+12012527549"
               className="text-[#FF3E41] font-medium text-lg"
+              aria-label="Call (201) 252-7549"
             >
-              +1 (585) 207-8508
+              (201) 252-7549
             </a>
           </div>
         </div>

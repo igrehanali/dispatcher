@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 const page = () => {
   return (
-    <>
+    <div className="md:w-full w-[100vw] overflow-x-hidden">
       <Navbar />
       <Hero />
       <Dispatching />
@@ -21,7 +21,7 @@ const page = () => {
       <Testominal />
       <QuoteSection />
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -6,11 +6,17 @@ const Footer = () => {
       <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <h4 class="text-white text-xl font-semibold mb-4">Address</h4>
-          <p class="text-gray-300 mb-4">Overlook Center, Princeton, NJ 08540</p>
+          <p class="text-gray-300 mb-4">
+            Overlook Center, Princeton, NJ 08540 Quickhaul dispatchers
+          </p>
           <p class="text-gray-300 flex items-center mb-2">
-            <span class="text-[#FE5244] mr-2">📞</span>
-            <a href="tel:(585) 207-8508" class="hover:text-[#FE5244]">
-              (585) 207-8508
+            <span class="hover:text-[#FE5244] mr-2">📞</span>
+            <a
+              href="tel:+12012527549"
+              className="hover:text-[#FF3E41] font-medium text-lg"
+              aria-label="Call (201) 252-7549"
+            >
+              (201) 252-7549
             </a>
           </p>
           <p class="text-gray-300 flex items-center">
@@ -19,7 +25,7 @@ const Footer = () => {
               href="mailto:usadispatchers1@gmail.com"
               class="hover:text-[#FE5244]"
             >
-              usadispatchers1@gmail.com
+              info@quickhauldispatcher.com
             </a>
           </p>
         </div>

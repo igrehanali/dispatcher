@@ -41,7 +41,13 @@ const TruckingInfo = () => {
           <FaPhoneAlt className="text-red-600 text-3xl" />
           <div>
             <p className="font-bold">Call for any query!</p>
-            <p className="text-red-600 font-bold text-lg">(585) 207-8508</p>
+            <a
+              href="tel:+12012527549"
+              className="text-[#FF3E41] font-semibold text-lg"
+              aria-label="Call (201) 252-7549"
+            >
+              (201) 252-7549
+            </a>
           </div>
         </div>
       </div>
