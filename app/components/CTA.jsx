@@ -48,9 +48,9 @@ const QuoteSection = () => {
         data-aos="fade-left"
       >
         <div className="w-full">
-          <button className="bg-red-500 text-white text-sm uppercase py-3 px-6 mb-4 w-full hover:bg-red-600 transition duration-300">
+          {/* <button className="bg-red-500 text-white text-sm uppercase py-3 px-6 mb-4 w-full hover:bg-red-600 transition duration-300">
             Sign Up
-          </button>
+          </button> */}
           <button className="bg-red-500 text-white text-sm uppercase py-3 px-6 w-full hover:bg-red-600 transition duration-300">
             Email Us
           </button>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Import AOS styles
 import HeroImage from "../public/images/hero.png";
+import Link from "next/link";
 
 const Hero = () => {
   // Initialize AOS on component mount
@@ -54,12 +55,14 @@ const Hero = () => {
         <div className="mt-6 flex gap-4" data-aos="fade-up">
           {" "}
           {/* AOS for buttons */}
-          <button className="bg-[#FF3E41] text-white font-medium px-12 py-3">
+          {/* <button className="bg-[#FF3E41] text-white font-medium px-12 py-3">
             Sign Up
-          </button>
-          <button className="bg-[#00BFFF] text-white font-medium px-12 py-3">
-            Explore
-          </button>
+          </button> */}
+          <Link href="#Services">
+            <button className="bg-[#00BFFF] text-white font-medium px-12 py-3">
+              Explore
+            </button>
+          </Link>
         </div>
       </div>
     </section>
