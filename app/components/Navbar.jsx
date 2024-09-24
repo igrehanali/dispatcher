@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="bg-white md:h-20 h-12 flex justify-between items-center border-t-4 border-[#FF3E41] pr-4 fixed top-0 left-0 z-50 w-screen">
       <div className="bg-[#FF3E41] h-full flex items-center justify-center text-white px-1 sm:px-10 uppercase font-semibold text-lg sm:text-xl">
-        Fast track dispatch
+        Quick haul dispatch
       </div>
 
       <div className="flex items-center gap-6">
