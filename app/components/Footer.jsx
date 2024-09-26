@@ -22,7 +22,8 @@ const Footer = () => {
           <p class="text-gray-300 flex items-center">
             <span class="text-[#FE5244] mr-2">✉️</span>
             <a
-              href="mailto:usadispatchers1@gmail.com"
+              href="info@quickhauldispatcher.com"
+              // href="mailto:usadispatchers1@gmail.com"
               class="hover:text-[#FE5244]"
             >
               info@quickhauldispatcher.com
@@ -69,7 +70,7 @@ const Footer = () => {
               Call Now
             </a>
             <a
-              href="mailto:usadispatchers1@gmail.com"
+              href="info@quickhauldispatcher.com"
               class="bg-[#FE5244] text-white py-2 px-4 rounded-md hover:bg-opacity-90 transition"
             >
               Email Us
